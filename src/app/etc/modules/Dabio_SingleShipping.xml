@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dabio_SingleShipping>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>Mage_Shipping</depends>
+        </Dabio_SingleShipping>
+    </modules>
+</config>

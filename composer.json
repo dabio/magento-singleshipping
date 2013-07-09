@@ -1,0 +1,15 @@
+{
+    "name": "Dabio/SingleShipping",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Add your description here",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Danilo Braband",
+            "email":"dbraband@gmail.com"
+        }
+    ]
+}
