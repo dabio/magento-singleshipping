@@ -1,3 +1,7 @@
 "Single Shipping Method","Standard Liefermethode"
 "Default Shipping Method","Standard Liefermethode"
 "Hide Shipping Methods in Checkout","Auswahl der Liefermethode im Checkout ausblenden"
+"If you provide only one shipping method, displaying the block is obsolete.","Bei nur einer Liefermethode kann die Ausgabe im Checkout weggelassen werden."
+"Please select a country to which the shipping method can applied to.","Bitte das Land auswählen, wohin nur versand werden kann."
+"Note: If the desired shipping method doesn't appear in this field, make sure it's activated.","Hinweis: Wenn die gewünschte Liefermethode nicht angezeigt wird, muss sie erst aktiviert werden."
+"Default Shipping Country","Voreingestelltes Lieferland"

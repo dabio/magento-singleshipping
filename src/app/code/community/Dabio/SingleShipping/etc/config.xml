@@ -22,6 +22,28 @@
             </dabio_singleshipping>
         </models>
     </global>
+    <frontend>
+        <events>
+            <checkout_cart_save_before>
+                <observers>
+                    <dabio_singleshipping_model_observer>
+                        <type>singleton</type>
+                        <class>Dabio_SingleShipping_Model_Observer</class>
+                        <method>applySingleShippingMethod</method>
+                    </dabio_singleshipping_model_observer>
+                </observers>
+            </checkout_cart_save_before>
+        </events>
+        <layout>
+            <layout>
+                <updates>
+                    <dabio_singleshipping>
+                        <file>dabio_singleshipping.xml</file>
+                    </dabio_singleshipping>
+                </updates>
+            </layout>
+        </layout>
+    </frontend>
     <adminhtml>
         <translate>
             <modules>

@@ -5,6 +5,7 @@
             <active>true</active>
             <codePool>community</codePool>
             <depends>Mage_Shipping</depends>
+            <depends>Mage_Adminhtml</depends>
         </Dabio_SingleShipping>
     </modules>
 </config>

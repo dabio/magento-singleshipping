@@ -1,36 +1,26 @@
 <?php
 
 class Dabio_SingleShipping_Model_Source_ShippingMethod
+    extends Mage_Adminhtml_Model_System_Config_Source_Shipping_Allmethods
 {
     /**
-     * Returns all activated shipping methods.
+     * Returns all active methods.
+     *
+     * @param bool $isActiveOnlyFlag
      *
      * @return array
      */
-    public function toOptionArray()
+    public function toOptionArray($isActiveOnlyFlag = true)
     {
-        return $this->getAllShippingMethods();
+        // true for only active methods
+        $isActiveOnlyFlag = true;
+
+        // get all methods from the parent model
+        $methods = parent::toOptionArray($isActiveOnlyFlag);
+
+        // Shift the first method from the array. First element is empty.
+        array_shift($methods);
+
+        return $methods;
     }
-
-    /**
-     * Returns all activated shipping methods.
-     *
-     * @return array
-     */
-    public function getAllShippingMethods()
-    {
-        $methods = Mage::getSingleton('shipping/config')->getActiveCarriers();
-        $options = array();
-
-        foreach($methods as $_code => $_carrier) {
-            if (!$_carrier->getAllowedMethods())
-                continue;
-
-            if(!$_title = Mage::getStoreConfig("carriers/{$_code}/title"))
-                $_title = $_code;
-            array_push($options, array('value' => $_code, 'label' => $_title));
-        }
-        return $options;
-    }
-
 };
