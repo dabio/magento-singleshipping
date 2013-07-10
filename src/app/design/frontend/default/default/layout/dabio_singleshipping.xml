@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
 <layout>
 
+    <checkout_cart_index>
+        <reference name="checkout.cart">
+            <action ifconfig="shipping/singleshipping/hide_shipping" method="unsetChild"><name>shipping</name></action>
+        </reference>
+    </checkout_cart_index>
+
+    <dabio_singleshipping_checkout_cart_index>
+        <update handle="checkout_cart_index"/>
+    </dabio_singleshipping_checkout_cart_index>
+
 </layout>

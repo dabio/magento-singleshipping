@@ -35,13 +35,11 @@
             </checkout_cart_save_before>
         </events>
         <layout>
-            <layout>
-                <updates>
-                    <dabio_singleshipping>
-                        <file>dabio_singleshipping.xml</file>
-                    </dabio_singleshipping>
-                </updates>
-            </layout>
+            <updates>
+                <dabio_singleshipping>
+                    <file>dabio_singleshipping.xml</file>
+                </dabio_singleshipping>
+            </updates>
         </layout>
     </frontend>
     <adminhtml>
