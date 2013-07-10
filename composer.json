@@ -2,7 +2,7 @@
     "name": "dabio/singleshipping",
     "license": "OSL-3.0",
     "type": "magento-module",
-    "description": "Add your description here",
+    "description": "Allows to checkout with a single shipping method without annoy the user.",
     "require": {
         "magento-hackathon/magento-composer-installer": "*"
     },
