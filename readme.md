@@ -6,7 +6,7 @@ Magento module to set a default shipping method for all checkouts without annoyi
 Facts
 -----
 - version: 1.0.0
-- [extension on GitHub](https://github.com/dabio/magento-singleshipping
+- [extension on GitHub](https://github.com/dabio/magento-singleshipping)
 
 Description
 -----------
@@ -43,4 +43,4 @@ Licence
 
 Copyright
 ---------
-(c) 2013 Danilo Braband
+© 2013 Danilo Braband
