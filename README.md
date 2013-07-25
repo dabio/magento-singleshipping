@@ -37,10 +37,6 @@ Developer
 Danilo Braband
 [http://dab.io](http://dab.io)
 
-Licence
--------
-[OSL - Open Software Licence 3.0](http://opensource.org/licenses/osl-3.0.php)
-
 Copyright
 ---------
 © 2013 Danilo Braband
